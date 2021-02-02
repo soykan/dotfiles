@@ -60,11 +60,14 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
-# another menu
+# dropdown terminal
 bindsym $mod+z exec xfce4-terminal --drop-down
 
 # kill focused window
 bindsym $mod+Shift+q kill
+
+# i3lock-fancy
+bindsym $mod+Shift+l exec i3lock-fancy
 
 # start dmenu (a program launcher)
 bindsym $mod+d exec "rofi -show run"
@@ -74,10 +77,10 @@ bindsym $mod+d exec "rofi -show run"
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
-bindsym $mod+scedilla focus right
+#bindsym $mod+j focus left
+#bindsym $mod+k focus down
+#bindsym $mod+l focus up
+#bindsym $mod+scedilla focus right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -86,10 +89,10 @@ bindsym $mod+Up focus up
 bindsym $mod+Right focus right
 
 # move focused window
-bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
-bindsym $mod+Shift+scedilla move right
+#bindsym $mod+Shift+j move left
+#bindsym $mod+Shift+k move down
+#bindsym $mod+Shift+l move up
+#bindsym $mod+Shift+scedilla move right
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Shift+Left move left
